@@ -312,6 +312,7 @@ dict_map = {
     "cuddly": "Snuggling.",
 }
 
+
 # Remember that a dictionary's .get() method lets us set a default value!
 owner = dict_map.get(dog, "Reading newspaper.")
 ```
@@ -345,6 +346,7 @@ admin_login("admin", "12345")
 admin_login("ADMIN", "12345")
 # "Access granted"
 ```
+
 
 > **NOTE: `and` takes precedence over `or` in Python. Depending on how you write
 > your conditional statement(s), you may need to group pieces together with
